@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+   <children>
+      <ImageView fx:id="imgCiudades" fitHeight="588.0" fitWidth="782.0" layoutX="203.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ListView fx:id="listView" layoutX="6.0" layoutY="7.0" prefHeight="594.0" prefWidth="188.0" />
+      <Button fx:id="btnLimpiarEstilo" layoutX="316.0" layoutY="610.0" mnemonicParsing="false" onAction="#LimpiarEstilo" prefHeight="45.0" prefWidth="121.0" text="Limpiar Estilo" />
+      <Button fx:id="btnAsignarEstilo" layoutX="633.0" layoutY="613.0" mnemonicParsing="false" onAction="#AsignarEstilo" prefHeight="45.0" prefWidth="121.0" text="Asignar Estilo" />
+   </children>
+</AnchorPane>
